@@ -1,0 +1,65 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 499952,
+                "file_path": "results/test1/KartAgent/KartAgent-499952.onnx",
+                "reward": -0.5386001040538152,
+                "creation_time": 1647446125.9370022,
+                "auxillary_file_paths": [
+                    "results/test1/KartAgent/KartAgent-499952.pt"
+                ]
+            },
+            {
+                "steps": 500016,
+                "file_path": "results/test1/KartAgent/KartAgent-500016.onnx",
+                "reward": -0.5386001040538152,
+                "creation_time": 1647446125.980499,
+                "auxillary_file_paths": [
+                    "results/test1/KartAgent/KartAgent-500016.pt"
+                ]
+            },
+            {
+                "steps": 500016,
+                "file_path": "results/test1/KartAgent/KartAgent-500016.onnx",
+                "reward": null,
+                "creation_time": 1647446169.6239886,
+                "auxillary_file_paths": [
+                    "results/test1/KartAgent/KartAgent-500016.pt"
+                ]
+            },
+            {
+                "steps": 500016,
+                "file_path": "results/test1/KartAgent/KartAgent-500016.onnx",
+                "reward": null,
+                "creation_time": 1647446614.12907,
+                "auxillary_file_paths": [
+                    "results/test1/KartAgent/KartAgent-500016.pt"
+                ]
+            },
+            {
+                "steps": 500016,
+                "file_path": "results/test1/KartAgent/KartAgent-500016.onnx",
+                "reward": null,
+                "creation_time": 1647446718.264018,
+                "auxillary_file_paths": [
+                    "results/test1/KartAgent/KartAgent-500016.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500016,
+            "file_path": "results/test1/KartAgent.onnx",
+            "reward": null,
+            "creation_time": 1647446718.264018,
+            "auxillary_file_paths": [
+                "results/test1/KartAgent/KartAgent-500016.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}
