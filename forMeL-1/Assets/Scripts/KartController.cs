@@ -62,6 +62,9 @@ public class KartController : MonoBehaviour
       Vector3 pos = _spawnPointManager.SelectRandomSpawnpoint();
       sphere.MovePosition(pos);
       transform.position = pos - new Vector3(0, 0.4f, 0);
+      transform.rotation = Quaternion.identity;
+      sphere.GetComponent<Rigidbody>().velocity = Vector3.zero;
+      sphere.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
    }
    
    public void FixedUpdate()
