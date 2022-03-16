@@ -43,7 +43,19 @@ public class KartAgent : Agent
          var action = actionsOut.ContinuousActions;
 
          action[0] = Input.GetAxis("Horizontal");
-         action[1] = Input.GetKey(KeyCode.W) ? 1f : 0f;
+         
+         if (Input.GetKey(KeyCode.W))
+         {
+            action[1] = 1f;
+         }
+         else if (Input.GetKey(KeyCode.S))
+         {
+            action[1] = -1f;
+         }
+         else
+         {
+            action[1] = 0f;
+         }
       }
       
    #endregion
